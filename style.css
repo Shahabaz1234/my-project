@@ -1,0 +1,23 @@
+/* Global font */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Fade animation */
+.fade {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.98);
+  transition: opacity 0.6s ease, transform 0.6s ease, visibility 0.6s;
+}
+
+.fade.show {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+/* Hide helper */
+.hidden {
+  display: none !important;
+}
